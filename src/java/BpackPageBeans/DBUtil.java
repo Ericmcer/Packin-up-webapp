@@ -6,7 +6,7 @@
 package BpackPageBeans;
 import java.sql.*;
 /**
- *
+ * Allows me to avoid two try/catch clauses inside of the DB functions becuase its uglier that way
  * @author eric
  */
 public class DBUtil {
