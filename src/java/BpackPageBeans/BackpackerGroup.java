@@ -6,7 +6,9 @@
 package BpackPageBeans;
 
 /**
- *
+ *BackpackerGroup will store a bunch of information about the group. This class also has functions to parse
+ * data for DB reads and writes. Data is stored in arrays and ArrayLists on server and as long comma-seperated Strings
+ * in DB. This prepares data after reading and before writing.
  * @author eric
  */
 public class BackpackerGroup {
