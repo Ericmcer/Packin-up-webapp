@@ -7,7 +7,7 @@ package BpackPageBeans;
 
 import java.util.ArrayList;
 /**
- *
+ *Backpackers are essentially just to hold data. Doesnt have any function besides storing and returning data
  * @author eric
  */
 public class Backpacker {
