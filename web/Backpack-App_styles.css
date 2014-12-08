@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 10, 2014, 3:42:58 PM
+    Author     : eric
+*/
+#page_title{
+    text-align:center;
+    font-size:20px;
+}
+
+#background{ 
+        height:50em;
+        background-image:url(main-page-background.jpg);
+        position:relative;
+}
+
+.Backpack{
+    margin-left:30px;
+    margin-right:30px;
+    margin-top:15px;
+    margin-bottom:25px;
+    position:relative;
+    background:#FFFFFF;
+    background-image:url("backpack.jpg");
+    width:125px;
+    height:200px;
+}
+
+.contents{
+    position:absolute;
+    background:#ffffff;
+    margin-left:30px;
+    margin-bottom:30px;
+    bottom:30px;
+    left:-20px;
+    padding:5px;
+    z-index:99;
+}
+
+#saveButton{
+    position:relative;
+    margin:auto;
+    right:43%;
+    left:43%;
+}
+.btn-group{
+    z-index:0;
+}
+
+#contentsTable{
+    
+}

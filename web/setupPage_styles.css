@@ -1,0 +1,89 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 6, 2014, 7:12:42 PM
+    Author     : eric
+*/
+
+
+#background-setupPage{
+        height:50em;
+        background-image:url(main-page-background.jpg);
+        position:relative;
+}
+#setup-description-box{
+   
+    background:rgba(224,235,235,.7);
+}
+
+#page-description{
+    color:black;
+    font-size:18px;
+}
+
+label{
+    width:40%;
+    text-align:right;
+}
+
+#error_message{
+    margin-top:10px;
+    color:red;
+    background:rgba(224,235,235,.7);
+    margin-right:200px;
+}
+
+.setupText{
+    
+}
+
+#inputBackground{
+    background:rgba(224,235,235,.7);
+
+}
+
+#error_message2{
+    margin-top:10px;
+    color:red;
+    background:rgba(224,235,235,.7);
+    margin-right:200px;
+}
+#error_message3{
+    margin-top:10px;
+    color:red;
+    background:rgba(224,235,235,.7);
+    margin-right:200px;
+}
+#error_message4{
+    margin-top:10px;
+    color:red;
+    background:rgba(224,235,235,.7);
+    margin-right:200px;
+}
+#error_message5{
+    margin-top:10px;
+    color:red;
+    background:rgba(224,235,235,.7);
+    margin-right:200px;
+}
+
+
+
+
+video#bgvid { 
+
+position: fixed; right: 0; bottom: 0;
+
+min-width: 100%; min-height: 100%;
+
+width: auto; height: auto; z-index: -100;
+
+background: url(main-page-background.jpg) no-repeat;
+
+background-size: cover; 
+
+}
+

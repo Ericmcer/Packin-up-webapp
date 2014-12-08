@@ -1,0 +1,8 @@
+Hey eric great work hehehee
+
+Uhh it works for the most part but looks like shit. Need to display a signpost at top that has needs and add/remove functionality
+and a save changes button that will send data back to servlet
+background image is too short
+icons for backpacks are too big and kinda pointless with buttons, after it all works possible reconfigure so backpacks are clicked on 
+to call showContents(event)
+add/remove item buttons on backpacks
