@@ -31,28 +31,12 @@ public class PopulateApp extends HttpServlet {
       
     }
 
-    // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
-    /**
-     * Handles the HTTP <code>GET</code> method.
-     *
-     * @param request servlet request
-     * @param response servlet response
-     * @throws ServletException if a servlet-specific error occurs
-     * @throws IOException if an I/O error occurs
-     */
+  
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
     }
 
-    /**
-     * Handles the HTTP <code>POST</code> method.
-     *
-     * @param request servlet request
-     * @param response servlet response
-     * @throws ServletException if a servlet-specific error occurs
-     * @throws IOException if an I/O error occurs
-     */
     @Override
     
     //Alot happens here
@@ -73,9 +57,9 @@ public class PopulateApp extends HttpServlet {
         //with backpacker array already populated with names
         contents = DBOperations.selectFromBackpacks(groupID);
 
+        //create backpackergroup to send to JSP
         BackpackerGroup backpackerGroup = DBOperations.selectFromGroupDetails(groupID, contents);
-        //returns string of contents
-        
+
         request.setAttribute("groupID", groupID);
         request.setAttribute("groupInfo", backpackerGroup);
         //send request and response to jsp page
